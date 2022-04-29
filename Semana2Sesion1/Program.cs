@@ -25,8 +25,9 @@ namespace Semana2Sesion1
             x1.correr(500);
 
             Console.WriteLine("El Kilometraje del carro es: " + x1.kmrecorrido);
-
-
+            Console.WriteLine("El Kilometraje del carro es: " + x1.kmrecorrido);
+            Console.WriteLine("El Kilometraje del carro es: " + x1.kmrecorrido);
+            Console.WriteLine("El Kilometraje del carro es: " + x1.kmrecorrido);
 
         }
     }
