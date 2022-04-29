@@ -24,10 +24,20 @@ namespace Semana2Sesion1
             x1.correr(100);
             x1.correr(500);
 
-            Console.WriteLine("El Kilometraje del carro es: " + x1.kmrecorrido);
-            Console.WriteLine("El Kilometraje del carro es: " + x1.kmrecorrido);
-            Console.WriteLine("El Kilometraje del carro es: " + x1.kmrecorrido);
-            Console.WriteLine("El Kilometraje del carro es: " + x1.kmrecorrido);
+            // Las clases sirven para representar objetos de vida real en programacion
+            // se guarda informacion de objetos
+            // El proceso de Guardar informacion en variables o propiedades se le llama
+            // Encapsulamiento
+
+            // Vamos a Definir un Cliente del Gym y lo Vamos a Ejercitar
+
+
+            Cliente c1 = new Cliente("Claudia Sanchez", "0801",
+                f, "Femenino", 120.00, 1.65);
+
+
+            Console.WriteLine ("El Cliente Creado es: " + c1.GetNombre());
+
 
         }
     }
