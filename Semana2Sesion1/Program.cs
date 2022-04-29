@@ -36,9 +36,22 @@ namespace Semana2Sesion1
                 f, "Femenino", 120.00, 1.65);
 
 
-            Console.WriteLine ("El Cliente Creado es: " + c1.GetNombre());
+            Console.WriteLine ("El Cliente Creado es: " +
+                c1.GetNombre() +
+                " Tiene un peso de " + c1.GetPeso());
 
 
+            c1.correr(5);
+            c1.nadar(50);
+
+            c1.correr(5);
+            c1.nadar(70);
+
+            Console.WriteLine("El Cliente Creado es: " +
+                c1.GetNombre() +
+                " Tiene un peso de " + c1.GetPeso());
+
+            Console.WriteLine("Reporte de Contadores " + c1.GetReporteContador());
         }
     }
 }

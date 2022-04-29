@@ -73,5 +73,21 @@ namespace Semana2Sesion1.Clases
 
         }
 
+        public double GetPeso() {
+
+            return peso;
+        }
+
+        public string GetReporteContador()
+        {
+
+
+            return "Minutos Nado: " + contadorMinNado + " \n"
+                    + " Km Recorridos " + contadorKmRecorrido + " \n" +
+                    " Tiempo Pesas " + contadorMnPesas;
+
+
+        }
+
     }
 }
