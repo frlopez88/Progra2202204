@@ -75,6 +75,19 @@ namespace Semana2Sesion1
 
             l.ForEach(delegate (Carro x)
             {
+                x.llenarTanque(10);
+                x.correr(35);
+
+            });
+
+            l.ForEach(delegate (Carro x)
+            {
+                x.correr(35);
+
+            });
+
+            l.ForEach(delegate (Carro x)
+            {
                 Console.WriteLine(x.ReporteDeUso());
 
 

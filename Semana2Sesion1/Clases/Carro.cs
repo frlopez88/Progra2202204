@@ -50,8 +50,8 @@ namespace Semana2Sesion1.Clases
 
         public string ReporteDeUso() {
 
-            return "El Carro ha recorrido un total de kms: " +
-                kmrecorrido +
+            return "El Carro "+marca +" " +modelo +" "+color+" ha recorrido un total de kms: " +
+                kmrecorrido + 
                 " El Tanque de Gasolina tiene:" + galones;
         }
 
