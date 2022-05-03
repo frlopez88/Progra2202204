@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Semana2Sesion1.Clases;
 
 namespace Semana2Sesion1
@@ -56,7 +57,30 @@ namespace Semana2Sesion1
             */
 
             // Problema de Autos
-            
+
+            Carro carro1 = new Carro("Rojo", "Toyota", 2015,1.8,"Corolla");
+
+            carro1.llenarTanque(9);
+            carro1.correr(15);
+            carro1.correr(20);
+            carro1.correr(10);
+
+            List<Carro> l = new List<Carro>();
+
+            l.Add(carro1);
+
+            l.Add(new Carro("Azul", "Honda", 2018, 1.8, "Civic" ));
+            l.Add(new Carro("Verde", "Toyota", 2020, 2.2, "RAV 4" ));
+
+
+            l.ForEach(delegate (Carro x)
+            {
+                Console.WriteLine(x.ReporteDeUso());
+
+
+            });
+
+
 
         }
     }

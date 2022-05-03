@@ -61,7 +61,7 @@ Los automoviles tienen las siguientes caracterisitcas: color, marca, anio, poten
 , km recorridos, galones, contador_km_galones
 
 cuando un carro corre avanza en kilimetros su variable de kmrecorridos y tambien
-reduce su cantidad de galones, por cada 35 km recorridos se gasta un galon,
+reduce su cantidad de galones, por cada 35 km recorridos se gasta un galon.
 
 ademas la persona puede llenar el tanque de gasolina mandando el parametro de galones
 

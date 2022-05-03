@@ -3,21 +3,23 @@ namespace Semana2Sesion1.Clases
 {
     public class Carro
     {
-        public string color;
-        public string marca;
-        public int anio;
-        public double potencia;
-        public string modelo;
-        public double kmrecorrido;
+        private string color;
+        private string marca;
+        private int anio;
+        private double potencia;
+        private string modelo;
+        private double kmrecorrido;
+        private double galones;
+        private double contador_kms_galones;
 
 
-        public Carro(string c, string  m, int a, double p, string mo)
+        public Carro(string col, string  mar, int year, double pot, string mod)
         {
-            color = c;
-            marca = m;
-            anio = a;
-            potencia = p;
-            modelo = mo;
+            color = col;
+            marca = mar;
+            anio = year;
+            potencia = pot;
+            modelo = mod;
             kmrecorrido = 0;
         }
 
@@ -27,8 +29,31 @@ namespace Semana2Sesion1.Clases
 
         public void correr(double kms) {
             kmrecorrido = kmrecorrido + kms;
+
+            // algoritmo para reducir consumo de gas
+            contador_kms_galones = contador_kms_galones + kms;
+            if (contador_kms_galones >= 35) {
+
+                contador_kms_galones = 0;
+                galones = galones - 1;
+
+            }
+
+
         }
 
+        public void llenarTanque(double galones_a_llenar) {
+
+            galones = galones + galones_a_llenar;
+
+        }
+
+        public string ReporteDeUso() {
+
+            return "El Carro ha recorrido un total de kms: " +
+                kmrecorrido +
+                " El Tanque de Gasolina tiene:" + galones;
+        }
 
     }
 }
