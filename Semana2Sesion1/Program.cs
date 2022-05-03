@@ -7,6 +7,7 @@ namespace Semana2Sesion1
     {
         static void Main(string[] args)
         {
+            /* Problema de Clientes
             DateTime f = new DateTime(1985, 2, 5);
             Persona x = new Persona( "Cristiano Ronaldo", f, 180);
 
@@ -52,6 +53,11 @@ namespace Semana2Sesion1
                 " Tiene un peso de " + c1.GetPeso());
 
             Console.WriteLine("Reporte de Contadores " + c1.GetReporteContador());
+            */
+
+            // Problema de Autos
+            
+
         }
     }
 }

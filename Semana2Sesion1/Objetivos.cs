@@ -42,3 +42,31 @@ Por cada 20 km recorridos baja una 1lb
 Por cada 100 mn de pesas va a subir 0.5 lbs
 
  */
+
+/*
+ 
+ Objetivos Sesion 3
+
+
+1) Aprender a realizar diagramas de Clases
+2) Vamos a aprender a Identificar requerimientos de una solucion
+3) Vamos a progrmar la solucion con POO
+4) Listas
+
+Automoviles
+
+Se le solicita generar un proyecto que guarde una base de datos de automoviles
+
+Los automoviles tienen las siguientes caracterisitcas: color, marca, anio, potencia, modelo
+, km recorridos, galones, contador_km_galones
+
+cuando un carro corre avanza en kilimetros su variable de kmrecorridos y tambien
+reduce su cantidad de galones, por cada 35 km recorridos se gasta un galon,
+
+ademas la persona puede llenar el tanque de gasolina mandando el parametro de galones
+
+
+
+
+ 
+ */
