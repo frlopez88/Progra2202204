@@ -69,7 +69,7 @@ ademas la persona puede llenar el tanque de gasolina mandando el parametro de ga
 -- Problema a Resolver
 
 1) Crear una lista de Clientes
-con 10 registros 
+con 10 registros.
 2) Recorrer la lista de clientes y ponerlos a correr(20 kms)
 3) Recorrer la lista de clientes y generar reporte de GetReporteContador()
 
